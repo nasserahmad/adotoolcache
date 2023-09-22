@@ -2,7 +2,7 @@ name: Upload Node.js 14 and 16 tool cache
 on: push
 jobs:
   upload_tool_cache:
-    runs-on: W-PF3R93TJ
+    runs-on: laptop
     steps:
       - name: Clear any existing tool cache
         run: |
